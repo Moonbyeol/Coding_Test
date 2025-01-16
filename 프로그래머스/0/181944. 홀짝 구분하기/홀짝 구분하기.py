@@ -1,5 +1,2 @@
 a = int(input())
-if a%2:
-    print(f"{a} is odd")
-else:
-    print(f"{a} is even")
+print(f"{a} is {'odd' if a%2 else 'even'}")
