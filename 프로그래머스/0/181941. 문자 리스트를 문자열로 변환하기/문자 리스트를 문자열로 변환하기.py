@@ -1,2 +1,2 @@
 def solution(arr):
-    return ('').join(arr)
+    return ''.join(arr)
